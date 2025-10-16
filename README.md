@@ -16,7 +16,7 @@ We will be collaborating here to develop and maintain the project’s code....
 **Importing Procedure**:
 - On cmd, navigate to your chosen directory using cd commadn
 - Once in the directory, use `git clone URL`, where URL is the URL of this github page, foudn by pressign the big green **CODE** button in the main page and copying
-- Open the files usign an IDE, they should be in the directory you cloned to, if not, retry steps 2 and 3
+- Open the files usign an IDE, they should be in the directory you cloned to, if not, retry previous 2 steps
 - Run `pip install -r requirements.txt` to download all needed dependencies
 - Navigate to the **Models** file, which will include all models we used, each as a file with its results
 - Upon entering a file, you will notice there exists soem CSV files there with certain names, the names make sense with respect to the IPYNB file that has the model testing on it
