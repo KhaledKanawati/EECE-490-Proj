@@ -61,5 +61,6 @@ Diagnosed:
 - https://www.kaggle.com/datasets/vikasukani/parkinsons-disease-data-set
 - https://archive.ics.uci.edu/dataset/489/parkinson+dataset+with+replicated+acoustic+features
 
+With this much data, and promising results from the first dataset, we can be almost sure that our project is feasable. With the rich features of the preprocessed data, we are able to find the most relevant results, in which we will be able to use those to determine what we extract from the voice samples to see if our extraction and prediction process is working as intended.
 
 Will keep this updated as we go.
