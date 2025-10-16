@@ -12,17 +12,19 @@ We will be collaborating here to develop and maintain the project’s code....
 ## To Run Code Locally:
 #### Prerequisite:
 - Make sure you can run Jupyter Notebook locally, either through VS Code or other means
+- Ensure you have *git bash* installed 
 
 **Importing Procedure**:
-- On cmd, navigate to your chosen directory using cd commadn
-- Once in the directory, use `git clone URL`, where URL is the URL of this github page, foudn by pressign the big green **CODE** button in the main page and copying
-- Open the files usign an IDE, they should be in the directory you cloned to, if not, retry previous 2 steps
-- Run `pip install -r requirements.txt` to download all needed dependencies
+If you want to run this localy, follow the following steps:
+- On cmd, navigate to your chosen directory using cd command
+- Once in the directory, use `git clone URL`, where URL is the URL of this github page, found by pressing the big green **Code** button on the top right of the main page and copying
+- Open the files using an IDE, they should be in the directory you cloned to, if not, retry previous 2 steps
+- On a terminal, run `pip install -r requirements.txt` to download all needed dependencies
 - Navigate to the **Models** file, which will include all models we used, each as a file with its results
-- Upon entering a file, you will notice there exists soem CSV files there with certain names, the names make sense with respect to the IPYNB file that has the model testing on it
-- They include results of testing in case user wants to view resutls without running teh code themselves
-- The results of best model are already extensively seen, in case someone wants to see how other models with different parameters fared, at least in cross validation stage, they can view this file
-- To run the code, you can simply run the IPYNB fiel yourself, or look at results that are already there from previous run, they will produce the same output due to random seed
+- Upon entering a folder in **Models**, you will notice there exists soem CSV files there with certain names, the names make sense with respect to the IPYNB file that has the model testing on it
+- They include results of testing in case user wants to view results without running the code themselves
+- The results of best model are already extensively seen in the IPYNB file, in case someone wants to see how other models with different parameters fared, at least in cross validation stage, they can view the CSV files
+- To run the code, you can simply run the IPYNB file yourself, or look at results that are already there from previous run, they will produce the same output due to random seed
 
 # Initial Results
 We started with cleaning the feature set of the dataset found in Models, logistic, and finding most relevant features to work on
