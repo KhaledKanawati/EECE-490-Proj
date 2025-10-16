@@ -36,8 +36,15 @@ By using PCA we determined our data and output are not linearly seperable:
 
 <img width="433" height="335" alt="image" src="https://github.com/user-attachments/assets/37d7c34e-1f11-433e-a3f5-59e060e24b81" />
 
-We will be seeking to work on more complex, non-linear models such as **Random Forests**, **SVM**, **XGBoost**, and **Neural Networks**
 
+
+
+
+
+
+
+
+We will be seeking to work on more complex, non-linear models such as **Random Forests**, **SVM**, **XGBoost**, and **Neural Networks**
 
 We will also explore more data sets, such as the ones below:
 #### Raw data:
