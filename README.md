@@ -10,12 +10,11 @@ We will be collaborating here to develop and maintain the project’s code....
 
 
 ## To Run Code Locally:
-#### Prerequisite:
+#### Prerequisites:
 - Make sure you can run Jupyter Notebook locally, either through VS Code or other means
 - Ensure you have *git bash* installed 
 
 **Importing Procedure**:
-If you want to run this localy, follow the following steps:
 - On cmd, navigate to your chosen directory using cd command
 - Once in the directory, use `git clone URL`, where URL is the URL of this github page, found by pressing the big green **Code** button on the top right of the main page and copying
 - Open the files using an IDE, they should be in the directory you cloned to, if not, retry previous 2 steps
