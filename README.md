@@ -36,4 +36,21 @@ By using PCA we determined our data and output are not linearly seperable:
 
 We will be seeking to work on more complex, non-linear models such as **Random Forests**, **SVM**, **XGBoost**, and **Neural Networks**
 
+
+We will also explore more data sets, such as the ones below:
+#### Raw data:
+##### Full parkinsons (not early)
+- https://figshare.com/articles/dataset/Voice_Samples_for_Patients_with_Parkinson_s_Disease_and_Healthy_Controls/23849127
+- https://github.com/SJTU-YONGFU-RESEARCH-GRP/Parkinson-Patient-Speech-Dataset?
+
+##### Preprocessed:
+**For early PD**:
+- https://archive.ics.uci.edu/dataset/301/parkinson%2Bspeech%2Bdataset%2Bwith%2Bmultiple%2Btypes%2Bof%2BAudio%2Brecordings 
+- https://archive.ics.uci.edu/dataset/189/parkinsons+telemonitoring
+- https://archive.ics.uci.edu/dataset/470/parkinson+s+disease+classification
+Diagnosed: 
+- https://www.kaggle.com/datasets/vikasukani/parkinsons-disease-data-set
+- https://archive.ics.uci.edu/dataset/489/parkinson+dataset+with+replicated+acoustic+features
+
+
 Will keep this updated as we go.
