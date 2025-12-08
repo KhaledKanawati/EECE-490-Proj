@@ -1,3 +1,5 @@
+# DISCLAIMER: THERE WERE MORE COMMITS AND EDITS HOWEVER FOR SOME REASON WE DID A PUSH TO THE REPO AND ALL COMMITS ARE NO LONGER SHOWING, BUT CAN VIEW CONTRIBUTOR (JAD EIDO AND KHALED KANAWATI) TO SEE WE BOTH DID CONTRIBUTE AND COMMIT TO THE REPO
+
 # EECE-490 Project Repository  
 
 This repository is maintained by the following team members:  
@@ -341,7 +343,7 @@ Top 5 discriminative features (from Logistic Regression coefficients):
 
 - **Khaled Kanawati**: Logistic Regression implementation, polynomial feature engineering, hyperparameter optimization, SVM kernel comparison, outlier detection pipeline.
 - **Jad Eido**: Random Forest extensive grid search, Neural Networks & XGBoost.
-- **Bahaa Hamdan**: Custom feature extraction, NEW dataset pipeline
+- **Bahaa Hamdan**: Custom feature extraction, NEW dataset pipeline (WAS NOT FINISHED)
 
 ---
 
