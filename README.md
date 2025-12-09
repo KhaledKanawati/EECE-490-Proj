@@ -42,33 +42,8 @@ We will be seeking to work on more complex, non-linear models such as **Random F
 
 ## Project Updates - Complete Implementation
 
-### **Final Report**
-📄 **Complete NeurIPS-style final report**: `EECE490_Final_Report.tex`
-- 6-8 pages comprehensive analysis
-- Title: *"Recognizing Parkinson's Disease from Voice Using Machine Learning Biomarkers"*
-- Professional academic formatting with all experimental results
-- Includes mathematical definitions, feature equations, and clinical context
-- Backup available: `EECE490_Final_Report_BACKUP.tex`
 
-### **Models Implemented & Tested**
 
-#### 1️ **Logistic Regression with Polynomial Features**
-- **Best Configuration**: Degree-2 polynomials with L2 regularization (α=0.0562)
-- **Performance**: 
-  - **91.0% validation accuracy** (OLD dataset)
-  - **96.3% recall** (sensitivity) - meets WHO screening criteria
-  - **95.2% AUC-ROC**
-  - **1.2% overfitting gap** (excellent generalization)
-- **Configurations Tested**: 502 hyperparameter combinations (degrees 1-6, regularization sweep)
-- **Key Insight**: Degree-2 creates 77 composite features from 11 base features, optimal for dataset size
-- **Results Files**: 
-  - `Results/logreg_results_Ch1.csv` (all 502 configurations)
-  - `Results/logreg_summary_best_per_degree.csv` (best per degree)
-- **Visualizations**:
-  - `Figures/logreg_comprehensive_comparison.png`
-  - `Figures/logreg_learning_curve_deg4.png`
-  - `Figures/logreg_hyperparams_deg2.png`
-  - `Figures/logreg_confusion_deg*.png` (degrees 1-6)
 
 #### 2️ **Random Forest**
 - **Configurations Tested**: 5,042 exhaustive grid search combinations
