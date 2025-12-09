@@ -343,10 +343,8 @@ Top 5 discriminative features (from Logistic Regression coefficients):
 
 - **Khaled Kanawati**: Logistic Regression implementation, polynomial feature engineering, hyperparameter optimization, SVM kernel comparison, outlier detection pipeline.
 - **Jad Eido**: Random Forest extensive grid search, Neural Networks & XGBoost.
-- **Bahaa Hamdan**: Custom feature extraction, NEW dataset pipeline (WAS NOT FINISHED)
+- **Bahaa Hamdan**: Custom feature extraction, NEW dataset pipeline (WAS NOT FINISHED), Final Report  
 
 ---
-
-**Status**: ✅ Complete - All models implemented, tested, documented, and final report generated.
 
 **Last Updated**: December 2025
