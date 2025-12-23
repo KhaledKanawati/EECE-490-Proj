@@ -1,8 +1,7 @@
-# DISCLAIMER: THERE WERE MORE COMMITS AND EDITS HOWEVER FOR SOME REASON WE DID A PUSH TO THE REPO AND ALL COMMITS ARE NO LONGER SHOWING, BUT CAN VIEW CONTRIBUTOR (JAD EIDO AND KHALED KANAWATI) TO SEE WE BOTH DID CONTRIBUTE AND COMMIT TO THE REPO, CONTRIBUTIONS ARE LISTED AT THE BOTTOM
 
 # EECE-490 Project Repository  
-
-This repository is maintained by the following team members:  
+# Parkinson Disease Detection Through Voice
+This repository is maintained by the following:  
 
 - **Bahaa Hamdan**  
 - **Jad Eido**  
@@ -194,8 +193,8 @@ Top 5 discriminative features (from Logistic Regression coefficients):
 
 | Model | Dataset | Accuracy | Recall | AUC | Overfitting Gap |
 |-------|---------|----------|--------|-----|-----------------|
-| **LR deg-2** | OLD | **91.0%** | **96.3%** | **95.2%** | **1.2%** ✅ |
-| RF tuned | OLD | 65.0% | 77.1% | 70.2% | 28.1% ⚠️ |
+| **LR deg-2** | OLD | **91.0%** | **96.3%** | **95.2%** | **1.2%**  |
+| RF tuned | OLD | 65.0% | 77.1% | 70.2% | 28.1%  |
 | SVM RBF | OLD | 72.0% | 81.2% | 79.8% | 4.2% |
 | SVM+IF | OLD | 73.5% | 82.5% | 81.2% | 3.8% |
 | All models | NEW | 67.9% | ~82% | ~72% | 8.5% |
@@ -264,30 +263,30 @@ Top 5 discriminative features (from Logistic Regression coefficients):
 
 ### **Key Findings & Takeaways**
 
-#### 🏆 **Why Logistic Regression Won**
+####  **Why Logistic Regression Won**
 - **Optimal capacity**: 77 parameters for ~140 training samples (1:1.8 ratio)
 - **Strong regularization**: L2 with α=0.0562 prevents memorization
 - **Nonlinear power**: Degree-2 polynomials capture jitter×shimmer, HNR×pitch interactions
 - **Generalization**: 1.2% overfitting gap vs. Random Forest's 28% gap
 
-#### ⚠️ **Why Random Forest Failed**
+####  **Why Random Forest Failed**
 - **Excessive capacity**: 100 trees × depth 20 = ~10⁵ parameters
 - **Bootstrap curse**: 30-40% patient overlap in samples enables memorization
 - **Patient-specific splitting**: Trees split on timbre/pitch range rather than PD biomarkers
 - **No hyperparameter fix**: 5,042 configurations couldn't overcome fundamental capacity mismatch
 
-#### 🔬 **The Chaos Features Gap**
+####  **The Chaos Features Gap**
 - **DFA, RPDE, spread2 = 43% of discriminative power**
 - **Clinical mechanism**: PD-induced dopaminergic depletion → reduced laryngeal motor coordination → altered chaos dynamics
 - **Mathematical complexity**: Requires embedding optimization, phase space reconstruction, kernel density estimation
 - **Implementation barrier**: Prevents NEW dataset from matching OLD performance
 
 #### 🩺 **Clinical Viability**
-- ✅ Meets WHO screening criteria (>80% sensitivity/specificity)
-- ✅ Non-invasive, smartphone-accessible
-- ✅ Low-cost, scalable to population level
-- ✅ High sensitivity (96.3%) minimizes missed diagnoses
-- ⚠️ Requires two-stage paradigm: ML screening → clinical confirmation
+-  Meets WHO screening criteria (>80% sensitivity/specificity)
+-  Non-invasive, smartphone-accessible
+-  Low-cost, scalable to population level
+-  High sensitivity (96.3%) minimizes missed diagnoses
+-  Requires two-stage paradigm: ML screening → clinical confirmation
 
 ---
 
