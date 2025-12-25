@@ -281,7 +281,7 @@ Top 5 discriminative features (from Logistic Regression coefficients):
 - **Mathematical complexity**: Requires embedding optimization, phase space reconstruction, kernel density estimation
 - **Implementation barrier**: Prevents NEW dataset from matching OLD performance
 
-#### 🩺 **Clinical Viability**
+####  **Clinical Viability**
 -  Meets WHO screening criteria (>80% sensitivity/specificity)
 -  Non-invasive, smartphone-accessible
 -  Low-cost, scalable to population level
